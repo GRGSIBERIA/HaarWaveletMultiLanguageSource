@@ -31,6 +31,7 @@ namespace HaarWaveletCS
 
 			this.differernce = new List<float[]>();
 			this.differernce.Add(wave);
+			AnalyzeWavelet();
 		}
 
 		/// <summary>
